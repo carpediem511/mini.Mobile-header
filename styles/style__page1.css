@@ -1,0 +1,615 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    --menuTextColor: #fafafa;
+    --headlines: #0c4a6e;
+    --main-text: #0ea5e9;
+    --menuColor: #0284c7;
+    --offset: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.photophone1 {
+    background-image: url("images/hero.png");
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--menuColor);
+}
+
+.conteiner2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    position: sticky;
+    top: 0;
+    max-width: 1000px;
+    width: 100%;
+    color: var(--menuTextColor);
+    padding: 15px 0;
+    margin: 0 auto; 
+}
+
+a {
+    text-decoration: none;
+    color: var(--menuTextColor);
+}
+
+.navigation__name {
+    width: calc(100% / 2);
+    font-weight: 700;
+}
+
+.navigation__item {
+    width: calc(100% / 6);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main {
+    max-width: 1000px;
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.main-title {
+   width: calc(100% / 2 - var(--offset)); 
+   font-size: 36px;
+   font-weight: 700;
+   margin-top: 10%;
+   line-height: 1.2;
+   color: #3d3636;    
+}
+
+p span {
+    color: var(--menuColor);
+}
+
+.main-text {
+    width: calc(100% / 2 - var(--offset)); 
+    font-size: 12px;
+    font-weight: 500;
+    color: #0369a1;
+    margin-top: 4%;
+    line-height: 1.2;
+}
+
+.button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 50px 10px 50px;
+    background-color: var(--main-text);
+    color: #fafafa;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #737373;
+    cursor: pointer;
+}
+
+.services-section {
+    max-width: 1000px;
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.our-services {
+    color: var(--headlines);
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    
+}
+
+#services {
+    color: #0369a1;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#aboutUs {
+    color: #0369a1;
+    font-weight: 700;
+    font-size: 26px; 
+}
+
+#reviews {
+    color: #0369a1;
+    font-weight: 700;
+    font-size: 26px;  
+}
+
+#branches {
+    color: #0369a1;
+    font-weight: 700;
+    font-size: 26px;  
+}
+
+.service-list {
+    background-color: var(--menuColor);
+    display: flex;
+    width: 100%;
+    margin: 0 auto; 
+   
+}
+
+.IMG-service-list {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; 
+    justify-content: center;
+}
+
+.text-arrow {
+    display: flex;
+}
+
+.text-img {
+    padding-top: 30px;
+}
+
+.icon-arrow {
+    width: 25px;
+    height: 25px;
+    vertical-align: center;
+}
+
+.item-img {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+}
+
+.items {
+    width: calc(100% / 2);
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item-img1 {
+    border-radius: 10px;
+    background: linear-gradient(to right, #4597c778 20%, transparent 100%), url("images/service-3.png");
+
+}
+
+.item-img2 {
+    background: linear-gradient(to right, #4597c778 20%, transparent 100%), url("images/service-2.png");
+    border-radius: 10px;
+}
+
+.item-img3 {
+    background: linear-gradient(to right, #4597c778 20%, transparent 100%), url("images/service-1.png");
+    border-radius: 10px;
+}
+
+ .number-img {
+    padding-left: 5%;
+    padding-top: 5%;
+    color: #fafafa;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+ .text-img {
+    padding-top: 20%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    width: 130px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fafafa;
+    line-height: 1.2;
+ }
+
+ 
+.icon-bigArrow {
+    width: 36px;
+    height: 36px;
+    margin-top: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.photophone2 {
+    background-image: url("images/background-1.png");
+    background-position: top;
+    background-size: cover;
+    display: flex; 
+}
+
+.about-clinic-section {
+    max-width: 1000px;
+    width: 100%; 
+    margin: 0 auto;
+    color: #171717;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.text{
+    margin-bottom: 15px;
+}
+
+.for-button2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 50px 10px 50px;
+    background-color: var(--main-text);
+    color: var(--menuTextColor);
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #737373;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.your-feedback {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.review {
+    width: calc(100% / 12 * 6 - var(--offset));
+    padding: 20px;
+    border: 1px solid #d4d4d4;
+    display: flex;
+    border-radius: 10px;
+    margin: calc(var(--offset) / 2);
+    box-shadow: 1px 1px 1px 1px #e5e5e5;
+}
+
+.review-image-style {
+    width: 80px;
+    height: 80px;
+}
+
+.patient-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--menuColor);
+    padding-left: 10px;
+}
+
+.review-patient {
+    font-size: 12px;
+    line-height: 1.3;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #262626;
+}
+
+.photophone3 {
+    background: linear-gradient(0deg, rgba(240, 249, 255, 0.7), rgba(240, 249, 255, 0.7)), url("images/map-background.png");
+    background-position: top;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    align-items: center;
+    position: relative;
+}
+
+.services-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.branch {
+    border: 1px solid var(--menuColor);
+    border-radius: 10px;
+    background-color: var(--menuTextColor);
+    width: calc(100% / 12 * 4);
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.contact-info {
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.icon-brances {
+    width: 35px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+
+.address {
+    padding-left: 15px;
+    padding-top: 20px;
+    line-height: 1.2;
+    color: #075985;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.telephone {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 1.2;
+    color: #075985;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #f0f9ff;
+}
+
+.contact-information {
+    color: #0369a1;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 980px;
+    width: 100%;
+}
+
+.part1 {
+    display: flex;
+
+}
+
+.info-part1 {
+    padding-top: 30px;
+    padding-bottom: 5%;
+    line-height: 1.5;
+}
+
+.info-part2 {
+    padding-bottom: 5%;
+    text-align: end;
+    width: 100%;
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.fb-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.loc-icon {
+    vertical-align: middle;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.license {
+    margin-top: 5%;
+    padding-bottom: 10%;
+    text-align: end;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .navigation-mobile {
+        display: none;
+    }
+}    
+
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+
+    .navigation-mobile {
+        display: flex;
+        max-width: 1000px;
+        width: 100%;
+        background-color: var(--menuColor);
+    }
+
+    .navigation-mobile-name {
+        width: calc(100% / 2);
+        font-weight: 700;
+        font-size: 36px;
+        color: var(--menuTextColor);
+        margin-left: 1%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+       
+    }
+
+    .button-menu-mobile {
+        border: none;
+        background-color: transparent;
+        float: right;
+        margin-right: 60%;
+        margin-top: 3%;
+    }
+
+    .open-mobile-menu {
+        display: none;
+    }
+
+    .mobile-menu-open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--menuColor);
+        width: calc(100% / 3);
+        margin-left: 65%;   
+    }
+
+    .mobile-menu-item {
+        font-size: 18px;
+        color: white;
+        padding-bottom: 2%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        padding-top: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .menu-name {
+        font-size: 22px;
+        width: calc(100% / 3);
+        font-weight: 700;
+        color: var(--menuTextColor);
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    #icon-menu {
+        width: 50px;
+    }
+
+    .mobile-menu {
+        margin-left: 30%;
+        margin-top: 1%;
+    }
+
+    .main-title {
+        font-size: 16px;
+        margin-left: 2%;
+    }
+
+    .main-text {
+        width: calc(100% / 2);
+        font-size: 10px;
+        line-height: 1.3;
+        margin-left: 2%;
+    }
+
+    .item-img1 {
+      background-size: cover;
+    }
+
+    .item-img2 {
+        background-size: cover;
+    }
+
+    .item-img3 {
+        background-size: cover;
+    }
+
+    .button {
+        margin-left: 2%;
+    }
+
+    #services {
+        font-size: 24px;
+    }
+
+    .items {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .item-img {
+        
+        align-items: center;
+        overflow-x: scroll;
+    }
+
+    .about-clinic-section {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .review {
+        width: 100%;
+    }
+
+    .services-section {
+        flex-wrap: wrap;
+    }
+
+    .branch {
+        width: calc(100% *12 / 5);
+    }
+
+    .contact-info {
+        padding-bottom: 5px;
+    }
+
+    .part1 {
+        flex-wrap: wrap;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .part2 {
+        flex-wrap: wrap;
+    }
+
+    .part2-item {
+        margin-bottom: 25px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .icon-bigArrow {
+        display: none;
+    }
+
+    #services  {
+        font-size: 18px;
+    }
+
+    #aboutUs   {
+        font-size: 18px;
+    }
+
+    #reviews {
+        font-size: 18px;
+    }
+
+    #branches {
+        font-size: 18px;
+    }
+
+    .about-clinic-text {
+        font-size: 14px;
+    }
+
+    .your-feedback {
+        font-size: 14px; 
+    }
+
+    .contact-information {
+        font-size: 12px; 
+    }
+}
